@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Sachintha" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!-- Red for focused outline or underline -->
+        <item name="colorPrimary">#A9181C</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <!-- For text field indicators -->
+        <item name="colorPrimaryContainer">#A9181C</item>
+        <item name="colorOnPrimaryContainer">#FFFFFF</item>
+
+        <!-- This forces outline/underline color for TextInput fields -->
+        <item name="textInputStyle">@style/CustomTextInput</item>
+    </style>
+
+    <style name="CustomTextInput" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">#A9181C</item>
+        <item name="hintTextColor">#A9181C</item>
+    </style>
+
+    <style name="Theme.Sachintha" parent="Base.Theme.Sachintha" />
+</resources>
